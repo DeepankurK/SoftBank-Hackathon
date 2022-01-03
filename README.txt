@@ -1,4 +1,4 @@
-According to the recent mail you can the single file Evaluate.py as "python Evaluate.py" to get the required .csv file.
+You can the single file Evaluate.py as "python Evaluate.py" to get the required .csv file.
 
 Running order that I followed in preprocessing, model training and evaluating is:-
 Sentence_Vector_Generation.py
@@ -37,7 +37,7 @@ Architecture of this is as follows:
 In this model also I used the ​ ‘ELU’​ as activation function at every layer.
 I achieved an accuracy of ​ 0.98353621 ​ on this model.
 
-Model-1(Descriptive NN)
+# Model-1(Descriptive NN)
 
 I chose the criterion loss as MSE loss(Mean Squared Error Loss). The optimizer that I 
 selected was Adabound with initial learning rate as 0.001 and final learning rate of 0.03. I
@@ -45,7 +45,7 @@ optimized these values at different variations and chose the values which gave t
 loss. After defining the loss functions, I trained the model with an epoch of 10000 and a
 default batch size of 64.
 
-Model-2(Generative NN)
+# Model-2(Generative NN)
 
 J​ust like model-1 here also I used MSE loss as criterion loss and Adabound optimizer with
 initial and final learning rate as 0.001 and 0.01 respectively. After defining the loss functions, I trained the model with an epoch of 5000 and a default batch size of 64.
